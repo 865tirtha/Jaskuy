@@ -1,0 +1,98 @@
+﻿[1m[90m[TAILING] Tailing last 60 lines for [jaskuy-backend] process (change the value with --lines option)[39m[22m
+[90mC:\Users\mtirt\.pm2\logs\jaskuy-backend-out.log last 60 lines:[39m
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+
+[90mC:\Users\mtirt\.pm2\logs\jaskuy-backend-error.log last 60 lines:[39m
+[31m0|jaskuy-b | [39m      port: 5432
+[31m0|jaskuy-b | [39m    }
+[31m0|jaskuy-b | [39m  ]
+[31m0|jaskuy-b | [39m}
+[31m0|jaskuy-b | [39m[Cron] Chat Garbage Collector Failed: AggregateError [ECONNREFUSED]: 
+[31m0|jaskuy-b | [39m    at C:\Jaskuy\node_modules\pg-pool\index.js:45:11
+[31m0|jaskuy-b | [39m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31m0|jaskuy-b | [39m    at async ChatGarbageCollector.cleanUpOldChats (C:\Jaskuy\src\workers\chatGarbageCollector.js:10:24)
+[31m0|jaskuy-b | [39m    at async C:\Jaskuy\src\cron.js:23:13
+[31m0|jaskuy-b | [39m    at async Timeout._onTimeout (C:\Jaskuy\node_modules\node-cron\dist\cjs\scheduler\runner.js:70:44) {
+[31m0|jaskuy-b | [39m  code: 'ECONNREFUSED',
+[31m0|jaskuy-b | [39m  [errors]: [
+[31m0|jaskuy-b | [39m    Error: connect ECONNREFUSED ::1:5432
+[31m0|jaskuy-b | [39m        at createConnectionError (node:net:1678:14)
+[31m0|jaskuy-b | [39m        at afterConnectMultiple (node:net:1708:16) {
+[31m0|jaskuy-b | [39m      errno: -4078,
+[31m0|jaskuy-b | [39m      code: 'ECONNREFUSED',
+[31m0|jaskuy-b | [39m      syscall: 'connect',
+[31m0|jaskuy-b | [39m      address: '::1',
+[31m0|jaskuy-b | [39m      port: 5432
+[31m0|jaskuy-b | [39m    },
+[31m0|jaskuy-b | [39m    Error: connect ECONNREFUSED 127.0.0.1:5432
+[31m0|jaskuy-b | [39m        at createConnectionError (node:net:1678:14)
+[31m0|jaskuy-b | [39m        at afterConnectMultiple (node:net:1708:16) {
+[31m0|jaskuy-b | [39m      errno: -4078,
+[31m0|jaskuy-b | [39m      code: 'ECONNREFUSED',
+[31m0|jaskuy-b | [39m      syscall: 'connect',
+[31m0|jaskuy-b | [39m      address: '127.0.0.1',
+[31m0|jaskuy-b | [39m      port: 5432
+[31m0|jaskuy-b | [39m    }
+[31m0|jaskuy-b | [39m  ]
+[31m0|jaskuy-b | [39m}
+[31m0|jaskuy-b | [39m[Cron] Escrow Worker Failed: AggregateError [ECONNREFUSED]: 
+[31m0|jaskuy-b | [39m    at C:\Jaskuy\node_modules\pg-pool\index.js:45:11
+[31m0|jaskuy-b | [39m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31m0|jaskuy-b | [39m    at async EscrowWorker.autoReleaseEscrowFunds (C:\Jaskuy\src\domains\bookings\escrow.worker.js:9:24)
+[31m0|jaskuy-b | [39m    at async C:\Jaskuy\src\cron.js:13:13
+[31m0|jaskuy-b | [39m    at async Timeout._onTimeout (C:\Jaskuy\node_modules\node-cron\dist\cjs\scheduler\runner.js:70:44) {
+[31m0|jaskuy-b | [39m  code: 'ECONNREFUSED',
+[31m0|jaskuy-b | [39m  [errors]: [
+[31m0|jaskuy-b | [39m    Error: connect ECONNREFUSED ::1:5432
+[31m0|jaskuy-b | [39m        at createConnectionError (node:net:1678:14)
+[31m0|jaskuy-b | [39m        at afterConnectMultiple (node:net:1708:16) {
+[31m0|jaskuy-b | [39m      errno: -4078,
+[31m0|jaskuy-b | [39m      code: 'ECONNREFUSED',
+[31m0|jaskuy-b | [39m      syscall: 'connect',
+[31m0|jaskuy-b | [39m      address: '::1',
+[31m0|jaskuy-b | [39m      port: 5432
+[31m0|jaskuy-b | [39m    },
+[31m0|jaskuy-b | [39m    Error: connect ECONNREFUSED 127.0.0.1:5432
+[31m0|jaskuy-b | [39m        at createConnectionError (node:net:1678:14)
+[31m0|jaskuy-b | [39m        at afterConnectMultiple (node:net:1708:16) {
+[31m0|jaskuy-b | [39m      errno: -4078,
+[31m0|jaskuy-b | [39m      code: 'ECONNREFUSED',
+[31m0|jaskuy-b | [39m      syscall: 'connect',
+[31m0|jaskuy-b | [39m      address: '127.0.0.1',
+[31m0|jaskuy-b | [39m      port: 5432
+[31m0|jaskuy-b | [39m    }
+[31m0|jaskuy-b | [39m  ]
+[31m0|jaskuy-b | [39m}
+

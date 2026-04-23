@@ -1,0 +1,40 @@
+{
+  "commissions": [
+    {
+      "id": "00de8bf5-6758-4a87-91be-bbdc5e02a8cc",
+      "sales_id": "e44af473-01d2-4697-9fde-5db572fab660",
+      "mitra_id": "1f249dbf-e1ec-4479-a7f8-35194d613a1f",
+      "base_fee_net": "15000.00",
+      "commission_amount": "1500.00",
+      "company_revenue": "13500.00",
+      "status": "PENDING",
+      "created_at": "2026-02-27T02:24:08.323Z"
+    }
+  ],
+  "mitras": [
+    {
+      "id": "5455eb54-66ed-45f7-ad51-6072f53d717d",
+      "name": "hes",
+      "referred_by_sales_id": "e44af473-01d2-4697-9fde-5db572fab660"
+    },
+    {
+      "id": "1f249dbf-e1ec-4479-a7f8-35194d613a1f",
+      "name": "hesa",
+      "referred_by_sales_id": "e44af473-01d2-4697-9fde-5db572fab660"
+    }
+  ],
+  "sales": [
+    {
+      "id": "8734f2e1-930d-46a9-b952-424289d8a6f2",
+      "name": "Tester Fixed Pooler"
+    },
+    {
+      "id": "e44af473-01d2-4697-9fde-5db572fab660",
+      "name": "mahesa"
+    },
+    {
+      "id": "b24c656f-5717-4316-9020-be7e5c3dc349",
+      "name": "monyet"
+    }
+  ]
+}

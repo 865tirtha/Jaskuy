@@ -1,0 +1,65 @@
+﻿[1m[90m[TAILING] Tailing last 30 lines for [jaskuy-backend] process (change the value with --lines option)[39m[22m
+[90mC:\Users\mtirt\.pm2\logs\jaskuy-backend-out.log last 30 lines:[39m
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39m[Cron] Running Chat Garbage Collector...
+[32m0|jaskuy-b | [39m[Cron] Running Auto Release Escrow Worker...
+[32m0|jaskuy-b | [39mΓ£à Background CronJobs Registered (Escrow & Chat Garbage Collector).
+[32m0|jaskuy-b | [39m≡ƒÜÇ [Jaskuy Backend] Server is running on port 3000
+
+[90mC:\Users\mtirt\.pm2\logs\jaskuy-backend-error.log last 30 lines:[39m
+[31m0|jaskuy-b | [39m  [cause]: Error: Connection terminated unexpectedly
+[31m0|jaskuy-b | [39m      at Connection.<anonymous> (C:\Jaskuy\node_modules\pg\lib\client.js:180:73)
+[31m0|jaskuy-b | [39m      at Object.onceWrapper (node:events:633:28)
+[31m0|jaskuy-b | [39m      at Connection.emit (node:events:519:28)
+[31m0|jaskuy-b | [39m      at Socket.<anonymous> (C:\Jaskuy\node_modules\pg\lib\connection.js:61:12)
+[31m0|jaskuy-b | [39m      at Socket.emit (node:events:519:28)
+[31m0|jaskuy-b | [39m      at TCP.<anonymous> (node:net:346:12)
+[31m0|jaskuy-b | [39m}
+[31m0|jaskuy-b | [39mERROR REGISTRASI: error: relation "sales_agents" does not exist
+[31m0|jaskuy-b | [39m    at C:\Jaskuy\node_modules\pg-pool\index.js:45:11
+[31m0|jaskuy-b | [39m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31m0|jaskuy-b | [39m    at async registerSales (C:\Jaskuy\src\domains\auth\auth.controller.js:183:28) {
+[31m0|jaskuy-b | [39m  length: 111,
+[31m0|jaskuy-b | [39m  severity: 'ERROR',
+[31m0|jaskuy-b | [39m  code: '42P01',
+[31m0|jaskuy-b | [39m  detail: undefined,
+[31m0|jaskuy-b | [39m  hint: undefined,
+[31m0|jaskuy-b | [39m  position: '30',
+[31m0|jaskuy-b | [39m  internalPosition: undefined,
+[31m0|jaskuy-b | [39m  internalQuery: undefined,
+[31m0|jaskuy-b | [39m  where: undefined,
+[31m0|jaskuy-b | [39m  schema: undefined,
+[31m0|jaskuy-b | [39m  table: undefined,
+[31m0|jaskuy-b | [39m  column: undefined,
+[31m0|jaskuy-b | [39m  dataType: undefined,
+[31m0|jaskuy-b | [39m  constraint: undefined,
+[31m0|jaskuy-b | [39m  file: 'parse_relation.c',
+[31m0|jaskuy-b | [39m  line: '1449',
+[31m0|jaskuy-b | [39m  routine: 'parserOpenTable'
+[31m0|jaskuy-b | [39m}
+
